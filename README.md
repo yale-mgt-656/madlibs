@@ -56,7 +56,19 @@ You can use the command `nano` to create and edit files.  You may also use the c
 
 For example `nano pos/verbs/my-new-file.js` will create the file `my-new-file.js` in the directory `pos/verbs`.
 
-**8) Commit your changes and share them**
+**8) Check your code works.**
+
+Assuming you have [node installed](https://nodejs.org/en/), run the following:
+
+```
+npm install
+./node_modules/.bin/gulp
+```
+
+The app is now accessible at `127.0.0.1:3000` in your browser.  Ensure
+your changes didn't introduce any errors.
+
+**9) Commit your changes and share them**
 
 First, take a look at the status of your work
 
@@ -82,7 +94,7 @@ git push origin BRANCHNAME
 
 where `BRANCHNAME` is the name of your branch.
 
-**9) Go to GitHub, find your fork and the new branch, then make a pull request**
+**10) Go to GitHub, find your fork and the new branch, then make a pull request**
 
   Pull requests let you tell others about changes you've pushed to a repository on GitHub. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
 
@@ -97,7 +109,7 @@ where `BRANCHNAME` is the name of your branch.
 
   If you need extra help, check this out [https://help.github.com/articles/using-pull-requests/](https://help.github.com/articles/using-pull-requests/) or just come see a TA.
 
-**10) The instructor will merge in everybody's work.**
+**11) The instructor will merge in everybody's work.**
 
 Bother Kyle or the TAs if nothing's working.
 

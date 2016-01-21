@@ -18,7 +18,11 @@ bells and whistles on top.
 
 **4) Login to [cloud9](https://c9.io/).  Or, follow [these instructions](#) to setup your Mac with Git.**
 
-You can create a cloud9 account by linking to GitHub.
+You can create a cloud9 account by linking to GitHub.  Then, create a custom workspace, cloning from your forked repo.
+
+If working locally, run `git clone <url>`.
+
+The clone url is displayed on GitHub, above the repository file browser.
 
 **5) Pick whether you guys will be a story, verb, noun, adjective, or adverb group.**
 

@@ -16,7 +16,7 @@ bells and whistles on top.
 
   If you need more information, check out [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
-**4) Login to [cloud9](https://c9.io/).  Or, follow [these instructions](#) to setup your Mac with Git.**
+**4) Login to [cloud9](https://c9.io/).  Or, follow [these instructions](https://github.com/yale-cpsc-113/cpsc113-madlibs/wiki/Setting-up-Git-on-a-Mac.) to setup your Mac with Git.**
 
 You can create a cloud9 account by linking to GitHub.  Then, create a custom workspace, cloning from your forked repo.
 

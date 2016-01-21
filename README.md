@@ -16,19 +16,9 @@ bells and whistles on top.
 
   If you need more information, check out [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
-**4) Log into our server at SOM.**
+**4) Login to [cloud9](https://c9.io/).  Or, follow [these instructions](#) to setup your Mac with Git.**
 
-If you're on a mac, open your Terminal application and type
-```
-  ssh netid@margot.som.yale.edu
-```
-where `netid` is your netid. The password is your Yale CAS password. Once you're
-on the machine, you should clone your fork of the starter repo. That will be a command
-like
-```
-  git clone <YOUR FORK>
-  cd CPSC113-madlibs
-```
+You can create a cloud9 account by linking to GitHub.
 
 **5) Pick whether you guys will be a story, verb, noun, adjective, or adverb group.**
 
@@ -36,9 +26,11 @@ Checkout a new branch with a good name. This will be a command like
 ```
   git checkout -b new-verbs
 ```
+
 Here, I named my branch "new-verbs". You should name yours something different, no spaces.
 
 **6) Take a look around at the files ***
+
 Familiarize yourself where everything lives. You'll use the shell commands `cd` to change
 directories and `ls` to see what is each directory.
 
@@ -56,12 +48,14 @@ module.exports.verbs = [
 ];
 ```
 
-You can use the command `nano` to create and edit files.
+You can use the command `nano` to create and edit files.  You may also use the cloud9 editor, or a local text editor you have installed, like [atom](https://atom.io/).
 
 For example `nano pos/verbs/my-new-file.js` will create the file `my-new-file.js` in the directory `pos/verbs`.
 
 **8) Commit your changes and share them**
+
 First, take a look at the status of your work
+
 ```
 git status
 ```
@@ -71,6 +65,7 @@ to add the new files, try the `git add` command. You'll need to supply a file na
 
 Once you've added your changes to the "staging area", you want to make a commit. This
 is a command like
+
 ```
 git commit -m "Added some verbs for class"
 ```
@@ -80,7 +75,8 @@ Now, push your changes up to GitHub.
 ```
 git push origin BRANCHNAME
 ```
-where "BRANCHNAME" is the name of your branch.
+
+where `BRANCHNAME` is the name of your branch.
 
 **9) Go to GitHub, find your fork and the new branch, then make a pull request**
 

@@ -12,11 +12,11 @@ For this activity, you will use what you've learned about git to work collaborat
 Forking means to make a copy of the code but attach it to your own Github repository so that you can make changes.
 Technically you are "cloning" the starter repo. GitHub calls this "forking" because they add some other
 bells and whistles on top.
-  * Find the Madlibs code here: [https://github.com/yale-cpsc-113/CPSC113-madlibs](https://github.com/yale-cpsc-113/CPSC113-madlibs)
+  * Find the Madlibs code here: [https://github.com/yale-cpsc-213/madlibs](https://github.com/yale-cpsc-213/madlibs)
 
   If you need more information, check out [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
-**4) Login to [cloud9](https://c9.io/).  Or, follow [these instructions](https://github.com/yale-cpsc-113/cpsc113-madlibs/wiki/Setting-up-Git-on-a-Mac.) to setup your Mac with Git.**
+**4) Login to [cloud9](https://c9.io/).  Or, follow [these instructions](https://github.com/yale-cpsc-213/cpsc113-madlibs/wiki/Setting-up-Git-on-a-Mac.) to setup your Mac with Git.**
 
 You can create a cloud9 account by linking to GitHub.  Then, create a custom workspace, cloning from your forked repo.
 
@@ -42,7 +42,7 @@ directories and `ls` to see what is each directory.
 
 Technically, you can also edit existing files, but that will make our merging harder!
 If you want to make a new file of verbs, you might make a file at
-`CPSC113-madlibs/pos/verbs/my-new-file.js` and it might look like this:
+`madlibs/pos/verbs/my-new-file.js` and it might look like this:
 
 ```javascript
 module.exports.verbs = [
@@ -99,13 +99,13 @@ where `BRANCHNAME` is the name of your branch.
   Pull requests let you tell others about changes you've pushed to a repository on GitHub. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
 
   Click on the logo at right to get started.
-  ![Starting the pull request](https://github.com/yale-cpsc-113/CPSC113-madlibs/blob/master/images/pull.png)
+  ![Starting the pull request](https://github.com/yale-cpsc-213/madlibs/blob/master/images/pull.png)
 
   Then, once you get to another page, click the blue link.
-  ![Continuing the pull request](https://github.com/yale-cpsc-113/CPSC113-madlibs/blob/master/images/pull2.png)
+  ![Continuing the pull request](https://github.com/yale-cpsc-213/madlibs/blob/master/images/pull2.png)
 
   Finally, click the create button to checkout the commit.
-  ![Finishing the pull request](https://github.com/yale-cpsc-113/CPSC113-madlibs/blob/master/images/pull3.png)
+  ![Finishing the pull request](https://github.com/yale-cpsc-213/madlibs/blob/master/images/pull3.png)
 
   If you need extra help, check this out [https://help.github.com/articles/using-pull-requests/](https://help.github.com/articles/using-pull-requests/) or just come see a TA.
 

@@ -14,7 +14,9 @@ For this activity, you will use what you've learned about git to work collaborat
 4. Login to [cloud9](https://c9.io/).  Or, if you want to work on your own computer, fine. In that case,
   you'll need to install node.js.
 
-  You can create a cloud9 account by linking to GitHub.  Then, create a custom workspace, cloning from your forked repo.
+  Create a new account if you do not have one. If you choose not to use your yale.edu email, let the TAs know so they can add you to the c9 organization.
+
+  Once logged in, make a new workspace and clone from your forked git repository. Choose the *blank* template option and create your workspace. If you are asked to upload your SSH key to Github, you can ask one of the TA's to help you.
 
   If working locally, you'll need to clone
   the starter repo using the `git clone`
@@ -34,11 +36,6 @@ For this activity, you will use what you've learned about git to work collaborat
 
   Familiarize yourself where everything lives. You'll use the shell commands `cd` to change
   directories and `ls` to see what is each directory.
-
-7. Create a new branch
-
-  It might help to give your group a name. Then, you can make your branch something like
-  "fantastic-falcons-verbs" or "bouncing-bears-adverbs".
 
 7. Create a new file
 
@@ -64,9 +61,7 @@ For this activity, you will use what you've learned about git to work collaborat
   Assuming you have [node installed](https://nodejs.org/en/), run the following:
 
   ```
-  npm install -g yarn
-  yarn install
-  ./node_modules/.bin/gulp
+  npm install yarn && yarn install && ./node_modules/.bin/gulp
   ```
 
   The app is now accessible in your browser.  Ensure

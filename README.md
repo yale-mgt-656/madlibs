@@ -11,7 +11,8 @@ For this activity, you will use what you've learned about git to work collaborat
   Technically you are "cloning" the starter repo. GitHub calls this "forking" because they add some other
   bells and whistles on top. If you need more information, check out [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
-4. Login to [cloud9](https://c9.io/).  Or, follow [these instructions](https://github.com/yale-cpsc-213/cpsc113-madlibs/wiki/Setting-up-Git-on-a-Mac.) to setup your Mac with Git.**
+4. Login to [cloud9](https://c9.io/).  Or, if you want to work on your own computer, fine. In that case,
+  you'll need to install node.js.
 
   You can create a cloud9 account by linking to GitHub.  Then, create a custom workspace, cloning from your forked repo.
 
@@ -19,25 +20,32 @@ For this activity, you will use what you've learned about git to work collaborat
   the starter repo using the `git clone`
   command. The clone url is displayed on GitHub, above the repository file browser.
 
-5. Pick whether you guys will be a story, verb, noun, adjective, or adverb group.
+5. Your group will be assigned to one of five responsibilities:
+  stories, verbs, nouns, adjectives, or adverbs.
 
-  Checkout a new branch with a good name. This will be a command like
+  Checkout a new branch with a good name. Mine is going to be "kyle-verbs". Yours should
+  be something different. This will be a command like
   ```
   git checkout -b kyle-verbs
   ```
 
-  Here, I named my branch "kyle-verbs". You should name yours something different, no spaces.
 
 6. Take a look around at the files
 
   Familiarize yourself where everything lives. You'll use the shell commands `cd` to change
   directories and `ls` to see what is each directory.
 
+7. Create a new branch
+
+  It might help to give your group a name. Then, you can make your branch something like
+  "fantastic-falcons-verbs" or "bouncing-bears-adverbs".
+
 7. Create a new file
 
-  Technically, you can also edit existing files, but that will make our merging harder!
-  If you want to make a new file of verbs, you might make a file at
-  `madlibs/pos/verbs/my-new-file.js` and it might look like this:
+  Technically, you can also edit existing files, but that will make my job of merging harder!
+  If you want to make a new file of verbs, you should first choose a file name. For example,
+  if I chose "kyles-fun-verbs" I might make a file at
+  `madlibs/pos/verbs/kyles-fun-verbs.js` and it might look like this:
 
   ```javascript
   module.exports.verbs = [
@@ -56,12 +64,13 @@ For this activity, you will use what you've learned about git to work collaborat
   Assuming you have [node installed](https://nodejs.org/en/), run the following:
 
   ```
-  npm install
-  PORT=4000 ./node_modules/.bin/gulp
+  yarn install
+  ./node_modules/.bin/gulp
   ```
 
-  The app is now accessible at `127.0.0.1:4000` in your browser if you're running locally.  Ensure
-  your changes didn't introduce any errors.
+  The app is now accessible in your browser.  Ensure
+  your changes didn't introduce any errors. If you screwed up your js, your app will
+  likely crash and you just fix it.
 
 9. Commit your changes and share them
 

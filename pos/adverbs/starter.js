@@ -1,5 +1,13 @@
 module.exports.adverbs = [
   'quickly',
   'foolishly',
-  'coyly'
+  'coyly',
+  'packerly',
+  'gleely',
+  'gracefully',
+  'metaphorically',
+  'leisurely',
+  'deftly',
+  'creepily',
+  'dastardly'
 ];

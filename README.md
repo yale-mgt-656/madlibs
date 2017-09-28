@@ -64,6 +64,7 @@ For this activity, you will use what you've learned about git to work collaborat
   Assuming you have [node installed](https://nodejs.org/en/), run the following:
 
   ```
+  npm install -g yarn
   yarn install
   ./node_modules/.bin/gulp
   ```

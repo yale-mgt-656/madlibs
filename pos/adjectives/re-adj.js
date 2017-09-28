@@ -1,4 +1,4 @@
-i module.exports.adjectives = [
+module.exports.adjectives = [
 	'societal',
 	'environmentally sustainable',
 	'compunctious',

@@ -6,19 +6,28 @@ For this activity, you will use what you've learned about git to work collaborat
 1. Form a group with your neighbors.
 2. Make a Github account if you haven't already got one.
 3. Fork the starter repository on Github.
+
   Forking means to make a copy of the code but attach it to your own Github repository so that you can make changes.
 
   Technically you are "cloning" the starter repo. GitHub calls this "forking" because they add some other
   bells and whistles on top. If you need more information, check out [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
+  Please make sure you clone the repo that Kyle specifies. There are many clones floating around
+  due to completing this class activity previously. So, googling for it is not a good idea.
+
 4. Login to [cloud9](https://c9.io/).  Or, if you want to work on your own computer, fine. In that case,
   you'll need to install node.js.
 
-  You can create a cloud9 account by linking to GitHub.  Then, create a custom workspace, cloning from your forked repo.
+  You can create a cloud9 account by "linking" to GitHub.  Then, create a custom workspace, cloning from your forked repo.
 
   If working locally, you'll need to clone
   the starter repo using the `git clone`
   command. The clone url is displayed on GitHub, above the repository file browser.
+
+  (You'd prefer to use the "ssh" URL in order to clone your repo to c9. But, to do
+  that you'll need to have your c9 and GitHub accounts "linked". Technically,
+  this means that your
+  c9 ssh key is able to access your GitHub respositories.)
 
 5. Your group will be assigned to one of five responsibilities:
   stories, verbs, nouns, adjectives, or adverbs.
@@ -34,11 +43,6 @@ For this activity, you will use what you've learned about git to work collaborat
 
   Familiarize yourself where everything lives. You'll use the shell commands `cd` to change
   directories and `ls` to see what is each directory.
-
-7. Create a new branch
-
-  It might help to give your group a name. Then, you can make your branch something like
-  "fantastic-falcons-verbs" or "bouncing-bears-adverbs".
 
 7. Create a new file
 
